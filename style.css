@@ -2,41 +2,110 @@
     margin:0;
     padding:0;
 }
-h1{
-    text-align:center;
+body{
+    background-color:aliceblue;
+    font-family: 'Lora', serif;
 }
-.card{
+.container{
+    max-width:1000px;
+    background-color:#b7cdc8;
     margin:0 auto;
-    max-width:350px;
+    padding:20px;
+}
+.profile-image{
+   width: 100px;
+   height:100px;
+   border:3px solid white;
+   border-radius:50%;
+   float:left;
+}
+.header-bio{
+    float:left;
+    padding:30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#6fa096;
+}
+.header-contact{
+    float:right;
+}
+.header-contact a{
+   text-decoration: none;
+   color:teal;
+}
+.header-contact a:hover{
+    text-decoration:underline;
+    color:tomato;
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    border:solid black 3px;
+    width:100%;
+    margin:20px auto;
+    border-bottom:none;
+}
+
+#personal-section{
+
+}
+.left-div{
+ float:left;
+ width:30%;
+}
+.right-div{
+ float:left;
+ width:70%;
+}
+.div2-clear{
+    clear:both;
+}
+.common-hr{
+    border:solid black 1px;
+    width:100%;
+    border-bottom:none;
+    margin:20px auto;
+}
+/*--------------------
+education section start
+----------------------*/
+.edu-left{
+    float:left;
+    width:50%;
+}
+.edu-fight{
+    float:right;
+    width:50%;
+}
+.references-left{
+    float:left;
+    width:50%
+}
+.references-right{
+    float:right;
+    width:50%
+}
+
+
+
+
+/*--------------------
+footer start
+----------------------*/
+.bottom-container{
+    background-color: black;
     text-align:center;
-    margin-top:10px;
-    box-shadow: 0 5px 10px 0 rgb(31, 28, 28);   
-    transition:0.3s;
-    font-size: 0;
+    padding:10px;
 }
-.card:hover{
-    box-shadow: 0 17px 33px 0  rgb(31, 28, 28);
-}
-.head #result{
-    width:335px;
-    height:100px;  
-    font-size:32px;
-    font-weight:bold;
-    text-align:right;
-    padding:0 5px;
-    letter-spacing: 2px;
-}
-.btn{
-    width:87px;
-    height:70px;
-    font-weight: bold;
-    font-size: 16px;
-    background-color: rgb(36, 31, 31);
+.bottom-container a{
     color:white;
+    text-decoration:none;
+    margin:20px;
 }
-.btn-style{
-    background-color: rgb(104, 71, 135);
+.bottom-container p{
+    color:white;  
+    margin-top:20px;
+
 }
-.btn:hover{
-    background-color:pink;
-}
+
